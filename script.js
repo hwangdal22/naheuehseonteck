@@ -1,5 +1,5 @@
 function makeChoice() {
-    const choices = ['좋다', '나쁘다', '보류'];
+    const choices = ['좋다', '개좋다', '미쳤어 존나 개좋아'];
     const randomChoice = choices[Math.floor(Math.random() * choices.length)];
 
     const resultElement = document.getElementById('result');
